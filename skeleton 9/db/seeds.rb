@@ -13,14 +13,14 @@ helen = Guest.create!(name: 'Helen White', age: 25, favorite_color: 'White')
 job = Guest.create!(name: 'Job Bluth', age: 41, favorite_color: 'Red')
 
 Gift.create!(title: 'A Bottle of Wine',
-             description: 'This one is not so great.',
-             guest: john)
+            description: 'This one is not so great.',
+            guest: john)
 Gift.create!(title: 'Another Bottle of Wine',
-             description: 'This one is not so bad.',
-             guest: john)
+            description: 'This one is not so bad.',
+            guest: john)
 Gift.create!(title: 'The Hunger Games',
-             description: 'A bit dark for a gift, but it\'s good.',
-             guest: jane)
+            description: 'A bit dark for a gift, but it\'s good.',
+            guest: jane)
 Gift.create!(title: 'Baseball Glove',
              description: 'Feel like a kid again!',
              guest: josh)
